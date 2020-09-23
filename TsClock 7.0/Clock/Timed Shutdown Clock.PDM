@@ -1,0 +1,275 @@
+[Root]
+Most Recent Package=Timed Shutdown Clock Setup (Minimum)
+
+[Package|Timed Shutdown Clock Setup (Full)|Timed Shutdown Clock (Full)]
+Icon1=TSClock.exe
+Title1=Timed Shutdown Clock (Full)
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Timed Shutdown Clock Setup (Full)|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\VB\Samples\Clock\Versions
+
+[Package|Timed Shutdown Clock Setup (Full)|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Timed Shutdown Clock Setup (Full)|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Timed Shutdown Clock Setup (Full)|Files Found]
+msado20.tlb=C:\Program Files\Common Files\SYSTEM\ADO\msado20.tlb
+
+[Package|Timed Shutdown Clock Setup (Full)|Files Released]
+
+[Package|Timed Shutdown Clock Setup (Full)|Missing Dependency Information]
+D:\VB\Samples\Clock\Progress Bar\Clock Progress Bar.ocx=
+C:\WINDOWS\SYSTEM\MSIMG32.DLL=
+
+[Package|Timed Shutdown Clock Setup (Full)|Out-of-Date Dependency Information]
+
+[Package|Timed Shutdown Clock Setup (Full)|Files Added]
+D:\VB\Samples\Clock\ReadMe.txt=
+
+[Package|Timed Shutdown Clock Setup (Full)|Files Removed]
+
+[Package|Timed Shutdown Clock Setup (Full)|Files In Project]
+D:\VB\Samples\Clock\TSClock.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSIMG32.DLL=Yes
+D:\VB\Samples\Clock\Progress Bar\Clock Progress Bar.ocx=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\VB\Samples\Clock\ReadMe.txt=Yes
+
+[Package|Timed Shutdown Clock Setup (Full)|Configure Registry Files]
+Applicable=No
+
+[Package|Timed Shutdown Clock Setup (Full)|Configure Remote Servers]
+Applicable=No
+
+[Package|Timed Shutdown Clock Setup (Full)|Install Locations]
+D:\VB\Samples\Clock\TSClock.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSIMG32.DLL=$(WinSysPath)
+D:\VB\Samples\Clock\Progress Bar\Clock Progress Bar.ocx=$(AppPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Program Files\Common Files\SYSTEM\ADO\msado20.tlb=$(WinSysPath)
+D:\VB\Samples\Clock\ReadMe.txt=$(AppPath)
+
+[Package|Timed Shutdown Clock Setup (Full)|Configure Shared Files]
+Applicable=Yes
+D:\VB\Samples\Clock\TSClock.exe=No
+D:\VB\Samples\Clock\Progress Bar\Clock Progress Bar.ocx=No
+D:\VB\Samples\Clock\ReadMe.txt=No
+
+[Package|Timed Shutdown Clock Setup (Full)|Distribution]
+Type=single
+Size=
+Title=Timed Shutdown Clock
+
+[Package|Timed Shutdown Clock Setup (Full)|Package]
+PackageFolder=D:\VB\Samples\Clock\Versions
+ProjectFolder=D:\VB\Samples\Clock
+ServerSideCab=
+File1=D:\VB\Samples\Clock\Versions\setup.exe
+File2=D:\VB\Samples\Clock\Versions\Setup.Lst
+File3=D:\VB\Samples\Clock\Versions\TSClock.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Timed Shutdown Clock Setup (Full)|IconGroups]
+Group0=Timed Shutdown Clock
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Timed Shutdown Clock Setup (Full)|Timed Shutdown Clock]
+Icon1=TSClock.exe
+Title1=Timed Shutdown Clock
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|Timed Shutdown Clock Setup (Minimum)|Timed Shutdown Clock (Full)]
+Icon1=TSClock.exe
+Title1=Timed Shutdown Clock (Full)
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Timed Shutdown Clock Setup (Minimum)|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\Code\Vb\Eric\Samples\Clock\Versions
+
+[Package|Timed Shutdown Clock Setup (Minimum)|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Timed Shutdown Clock Setup (Minimum)|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Timed Shutdown Clock Setup (Minimum)|Files Found]
+msado20.tlb=C:\Program Files\Common Files\SYSTEM\ADO\msado20.tlb
+Clock Progress Bar.ocx=D:\VB\Samples\Clock\Progress Bar\Clock Progress Bar.ocx
+ReadMe.txt=C:\Code\Vb\Eric\Samples\Clock\ReadMe.txt
+
+[Package|Timed Shutdown Clock Setup (Minimum)|Files Released]
+
+[Package|Timed Shutdown Clock Setup (Minimum)|Missing Dependency Information]
+D:\VB\Samples\Clock\Progress Bar\Clock Progress Bar.ocx=
+C:\WINDOWS\SYSTEM\MSIMG32.DLL=
+C:\WINNT\system32\MSIMG32.DLL=
+C:\WINNT\system32\ATL.DLL=
+C:\Code\Vb\Eric\General Code\System Tray Icon\SystemTrayIcon.ocx=
+C:\WINDOWS\system32\atl.dll=
+C:\WINDOWS\system32\msimg32.dll=
+C:\WINDOWS\system32\psapi.dll=
+
+[Package|Timed Shutdown Clock Setup (Minimum)|Out-of-Date Dependency Information]
+
+[Package|Timed Shutdown Clock Setup (Minimum)|Files Added]
+readme.txt=
+
+[Package|Timed Shutdown Clock Setup (Minimum)|Files Removed]
+c:\windows\system\msimg32.dll=
+c:\windows\system\msvbvm60.dll=
+d:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\oleaut32.dll=
+d:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\olepro32.dll=
+d:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\asycfilt.dll=
+d:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\stdole2.tlb=
+d:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+c:\winnt\system32\msvbvm60.dll=
+
+[Package|Timed Shutdown Clock Setup (Minimum)|Files In Project]
+C:\Code\Vb\Eric\Samples\Clock\TSClock.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\psapi.dll=Yes
+C:\WINDOWS\system32\msimg32.dll=Yes
+C:\WINDOWS\system32\atl.dll=Yes
+C:\Code\Vb\Eric\Samples\Clock\IdleTime.dll=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\Code\Vb\Eric\Samples\Clock\Progress Bar\Clock Progress Bar.ocx=Yes
+C:\Code\Vb\Eric\General Code\System Tray Icon\SystemTrayIcon.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Code\Vb\Eric\Samples\Clock\ReadMe.txt=Yes
+
+[Package|Timed Shutdown Clock Setup (Minimum)|Configure Registry Files]
+Applicable=No
+
+[Package|Timed Shutdown Clock Setup (Minimum)|Configure Remote Servers]
+Applicable=No
+
+[Package|Timed Shutdown Clock Setup (Minimum)|Install Locations]
+D:\VB\Samples\Clock\TSClock.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSIMG32.DLL=$(WinSysPath)
+D:\VB\Samples\Clock\Progress Bar\Clock Progress Bar.ocx=$(AppPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Program Files\Common Files\SYSTEM\ADO\msado20.tlb=$(WinSysPath)
+D:\VB\Samples\Clock\ReadMe.txt=$(AppPath)
+D:\Code\VB\Eric\Samples\Clock\TSClock.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSIMG32.DLL=$(WinSysPath)
+D:\Code\VB\Eric\Samples\Clock\IdleTime.dll=$(WinSysPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+D:\Code\VB\Eric\Samples\Clock\Progress Bar\Clock Progress Bar.ocx=$(AppPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Code\VB\Eric\Samples\Clock\ReadMe.txt=$(AppPath)
+C:\WINNT\system32\ATL.DLL=$(WinSysPath)
+C:\Code\Vb\Eric\Samples\Clock\TSClock.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\psapi.dll=$(WinSysPath)
+C:\WINDOWS\system32\msimg32.dll=$(WinSysPath)
+C:\WINDOWS\system32\atl.dll=$(WinSysPath)
+C:\Code\Vb\Eric\Samples\Clock\IdleTime.dll=$(AppPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\Code\Vb\Eric\Samples\Clock\Progress Bar\Clock Progress Bar.ocx=$(AppPath)
+C:\Code\Vb\Eric\General Code\System Tray Icon\SystemTrayIcon.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Code\Vb\Eric\Samples\Clock\ReadMe.txt=$(AppPath)
+
+[Package|Timed Shutdown Clock Setup (Minimum)|Configure Shared Files]
+Applicable=Yes
+D:\VB\Samples\Clock\TSClock.exe=No
+D:\VB\Samples\Clock\Progress Bar\Clock Progress Bar.ocx=No
+D:\VB\Samples\Clock\ReadMe.txt=No
+D:\Code\VB\Eric\Samples\Clock\TSClock.exe=No
+D:\Code\VB\Eric\Samples\Clock\IdleTime.dll=No
+D:\Code\VB\Eric\Samples\Clock\Progress Bar\Clock Progress Bar.ocx=No
+D:\Code\VB\Eric\Samples\Clock\ReadMe.txt=No
+C:\Code\Vb\Eric\Samples\Clock\TSClock.exe=No
+C:\Code\Vb\Eric\Samples\Clock\IdleTime.dll=No
+C:\Code\Vb\Eric\Samples\Clock\Progress Bar\Clock Progress Bar.ocx=No
+C:\Code\Vb\Eric\Samples\Clock\ReadMe.txt=No
+
+[Package|Timed Shutdown Clock Setup (Minimum)|Distribution]
+Type=single
+Size=
+Title=Timed Shutdown Clock
+
+[Package|Timed Shutdown Clock Setup (Minimum)|IconGroups]
+Group0=Timed Shutdown Clock
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Timed Shutdown Clock Setup (Minimum)|Timed Shutdown Clock]
+Icon1=TSClock.exe
+Title1=Timed Shutdown Clock
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=ReadMe.txt
+Title2=Read Me
+StartIn2=$(AppPath)
+Key2=Icon2
+
+[Package|Timed Shutdown Clock Setup (Minimum)|Package]
+PackageFolder=c:\Code\Vb\Eric\Samples\Clock\Versions
+ProjectFolder=C:\Code\Vb\Eric\Samples\Clock
+ServerSideCab=
+File1=c:\Code\Vb\Eric\Samples\Clock\Versions\setup.exe
+File2=c:\Code\Vb\Eric\Samples\Clock\Versions\Setup.Lst
+File3=c:\Code\Vb\Eric\Samples\Clock\Versions\TSClock.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
