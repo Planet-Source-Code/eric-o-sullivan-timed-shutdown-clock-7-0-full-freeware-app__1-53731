@@ -1,0 +1,285 @@
+[Root]
+Most Recent Package=Clock Progressbar Denendencey Information
+Most Recent Deploy=Folder Deployment 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Work\Eric\VB\VB 6-0 Code\Progress Bar\Deploy Progress Bar
+Controls Design-Time Support=Yes
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WINNT\system32\msimg32.dll=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+C:\WINNT\System32\MsStkPrp.dll=This file is needed for usercontrol design-time support.
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\Work\Eric\VB\VB 6-0 Code\Progress Bar\Progress Bar.ocx=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\msimg32.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINNT\system32\MSSTKPRP.DLL=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Work\Eric\VB\VB 6-0 Code\Progress Bar\Progress Bar.ocx=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\msimg32.dll=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINNT\system32\MSSTKPRP.DLL=$(WinSysPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Work\Eric\VB\VB 6-0 Code\Progress Bar\Progress Bar.ocx=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Progress Bar
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\Work\Eric\VB\VB 6-0 Code\Progress Bar\Deploy Progress Bar
+ProjectFolder=C:\Work\Eric\VB\VB 6-0 Code\Progress Bar
+ServerSideCab=
+File1=C:\Work\Eric\VB\VB 6-0 Code\Progress Bar\Deploy Progress Bar\setup.exe
+File2=C:\Work\Eric\VB\VB 6-0 Code\Progress Bar\Deploy Progress Bar\Setup.Lst
+File3=C:\Work\Eric\VB\VB 6-0 Code\Progress Bar\Deploy Progress Bar\Progress Bar.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Exam Tutorial Internet Package|Root]
+SubWizProgID=PDWizard.InetCABPkgSubWiz
+BuildFolder=C:\Work\Eric\VB\Tutorial Project\Tutorial Code\Setup (Internet)
+Controls Design-Time Support=Yes
+
+[Package|Exam Tutorial Internet Package|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Exam Tutorial Internet Package|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Exam Tutorial Internet Package|Files Found]
+
+[Package|Exam Tutorial Internet Package|Files Released]
+
+[Package|Exam Tutorial Internet Package|Missing Dependency Information]
+C:\WINNT\system32\msimg32.dll=
+
+[Package|Exam Tutorial Internet Package|Out-of-Date Dependency Information]
+
+[Package|Exam Tutorial Internet Package|Files Added]
+c:\winnt\system32\msstkprp.dll=This file is needed for usercontrol design-time support.
+
+[Package|Exam Tutorial Internet Package|Files Removed]
+
+[Package|Exam Tutorial Internet Package|Files In Project]
+C:\Work\Eric\VB\VB 6-0 Code\Progress Bar\Progress Bar.ocx=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\msimg32.dll=Yes
+C:\WINNT\system32\MSSTKPRP.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+
+[Package|Exam Tutorial Internet Package|Configure Registry Files]
+Applicable=No
+
+[Package|Exam Tutorial Internet Package|Configure Remote Servers]
+Applicable=No
+
+[Package|Exam Tutorial Internet Package|Install Locations]
+C:\Work\Eric\VB\VB 6-0 Code\Progress Bar\Progress Bar.ocx=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\msimg32.dll=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINNT\system32\MSSTKPRP.DLL=$(WinSysPath)
+
+[Package|Exam Tutorial Internet Package|Configure Shared Files]
+Applicable=Yes
+C:\Work\Eric\VB\VB 6-0 Code\Progress Bar\Progress Bar.ocx=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|Exam Tutorial Internet Package|Distribution]
+Type=single
+Size=
+Title=Progress Bar
+
+[Package|Exam Tutorial Internet Package|ComponentInfo]
+Progress Bar.ocx=thiscab
+msvbvm60.dll=http://activex.microsoft.com/controls/vb6/VBRun60.cab
+OLEAUT32.DLL=http://activex.microsoft.com/controls/vb6/VBRun60.cab
+OLEPRO32.DLL=http://activex.microsoft.com/controls/vb6/VBRun60.cab
+ASYCFILT.DLL=http://activex.microsoft.com/controls/vb6/VBRun60.cab
+STDOLE2.TLB=http://activex.microsoft.com/controls/vb6/VBRun60.cab
+COMCAT.DLL=http://activex.microsoft.com/controls/vb6/VBRun60.cab
+msimg32.dll=thiscab
+msado20.tlb=thiscab
+MSSTKPRP.DLL=http://activex.microsoft.com/controls/vb6/MsStkPrp.cab
+
+[Package|Exam Tutorial Internet Package|ObjectInfo]
+ctlProgBar=true;true
+
+[Package|Exam Tutorial Internet Package|Package]
+PackageFolder=C:\Work\Eric\VB\Tutorial Project\Tutorial Code\Setup (Internet)
+ProjectFolder=C:\Work\Eric\VB\VB 6-0 Code\Progress Bar
+ServerSideCab=C:\Work\Eric\VB\Tutorial Project\Tutorial Code\Setup (Internet)\Progress Bar.CAB
+File1=C:\Work\Eric\VB\Tutorial Project\Tutorial Code\Setup (Internet)\Progress Bar.CAB
+File2=C:\Work\Eric\VB\Tutorial Project\Tutorial Code\Setup (Internet)\Progress Bar.HTM
+Handler1=PDWizard.WebPostDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+
+[Deploy|Web Deployment 1|Root]
+Package=Exam Tutorial Internet Package
+Handler=PDWizard.WebPostDplySubWiz
+
+[Deploy|Web Deployment 1|Package Files]
+C:\Work\Eric\VB\Tutorial Project\Tutorial Code\Setup (Internet)\Progress Bar.CAB=Yes
+C:\Work\Eric\VB\Tutorial Project\Tutorial Code\Setup (Internet)\Progress Bar.HTM=Yes
+
+[Deploy|Web Deployment 1|Other Files and Folders]
+
+[Deploy|Web Deployment 1|WebPost Site]
+URL=file///c:\downloads\testdeploy
+Provider={8B14B770-748C-11D0-A309-00C04FD7CFC5}
+Explode=No
+
+[Deploy|Folder Deployment 1|Root]
+Package=Exam Tutorial Internet Package
+Handler=PDWizard.FolderDplySubWiz
+Folder=C:\Downloads\TestDeploy
+
+[Deploy|Folder Deployment 1|Package Files]
+C:\Work\Eric\VB\Tutorial Project\Tutorial Code\Setup (Internet)\Progress Bar.CAB=Yes
+C:\Work\Eric\VB\Tutorial Project\Tutorial Code\Setup (Internet)\Progress Bar.HTM=Yes
+
+[Deploy|Folder Deployment 1|Other Files and Folders]
+
+[Deploy|Folder Deployment 1|WebPost Site]
+URL=file///c:\downloads\testdeploy
+Provider={8B14B770-748C-11D0-A309-00C04FD7CFC5}
+Explode=No
+
+
+[Package|Clock Progressbar Denendencey Information|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=D:\VB\Samples\Clock\Progress Bar
+Controls Design-Time Support=No
+
+[Package|Clock Progressbar Denendencey Information|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Clock Progressbar Denendencey Information|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Clock Progressbar Denendencey Information|Files Found]
+
+[Package|Clock Progressbar Denendencey Information|Files Released]
+
+[Package|Clock Progressbar Denendencey Information|Missing Dependency Information]
+C:\Program Files\Common Files\SYSTEM\ADO\msado20.tlb=
+
+[Package|Clock Progressbar Denendencey Information|Out-of-Date Dependency Information]
+
+[Package|Clock Progressbar Denendencey Information|Files Added]
+c:\windows\system\msstkprp.dll=This file is needed for usercontrol design-time support.
+
+[Package|Clock Progressbar Denendencey Information|Files Removed]
+c:\windows\system\msstkprp.dll=
+
+[Package|Clock Progressbar Denendencey Information|Files In Project]
+D:\VB\Samples\Clock\Progress Bar\Clock Progress Bar.ocx=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSIMG32.DLL=Yes
+C:\WINDOWS\SYSTEM\MSSTKPRP.DLL=No
+
+[Package|Clock Progressbar Denendencey Information|Configure Registry Files]
+Applicable=
+
+[Package|Clock Progressbar Denendencey Information|Configure Remote Servers]
+Applicable=
+
+[Package|Clock Progressbar Denendencey Information|Install Locations]
+D:\VB\Samples\Clock\Progress Bar\Clock Progress Bar.ocx=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSIMG32.DLL=$(WinSysPath)
+C:\Program Files\Common Files\SYSTEM\ADO\msado20.tlb=$(WinSysPath)
+
+[Package|Clock Progressbar Denendencey Information|Configure Shared Files]
+Applicable=
+
+[Package|Clock Progressbar Denendencey Information|DepFile]
+DepCabFile=Clock Progress Bar.CAB
+DepCabRun=Clock Progress Bar.INF
+
+[Package|Clock Progressbar Denendencey Information|Package]
+PackageFolder=D:\VB\Samples\Clock\Progress Bar
+ProjectFolder=D:\VB\Samples\Clock\Progress Bar
+ServerSideCab=
+File1=D:\VB\Samples\Clock\Progress Bar\Clock Progress Bar.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
